@@ -1,0 +1,615 @@
+*{box-sizing: border-box;
+margin: 0;
+font-family: 'Gotham', sans-serif;}
+
+html{scroll-behavior: smooth;}
+
+.container{width: 85%; margin: auto;}
+
+h1{font-size: 6em;}
+h2{font-size: 1.5em;}
+p{font-size: 1.5em;}
+li{list-style: none;
+font-size: 1.5em;}
+.acolor{color: rgb(140, 140, 140);}
+
+header a{display: flex; }
+
+header h2 {margin-top: 17px;
+margin-left: 6px;}
+
+a{text-decoration: none;
+color: white;}
+
+a img{height: 50px;
+margin-top: 7px;}
+
+header{background-color: rgb(0, 0, 0);}
+
+#hero{color: rgb(250, 250, 250);
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),url("hero.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center;}
+
+     #hero .showcase{display: flex;
+        text-align: left;
+        align-items: baseline; justify-content: left;
+        flex-direction: column;
+        height: 90vh;
+    margin-left: 100px;
+margin-top: 100px;}
+
+#hero p{margin-top: 25px;}
+
+#hero #search-form{flex-direction: row;
+    margin-top: 40px;}
+
+#hero input{height: 50px;
+width: 400px;
+font-size: 1.5em;
+border-style: none;}
+
+#hero button{font-size: 1.5em;
+background-color: #fc0;
+background-position: center;
+background-size: 50px 50px;
+width: 125px; height: 50px;
+padding: 10px 25px;
+color: black;
+cursor: pointer;
+border: none;
+font-weight: bold;
+padding-left: 20px;}
+
+#hero form{width: 600px;
+height: 55px;
+display: flex;}
+
+#hero button:hover{background-color: rgb(214, 174, 14);}
+
+
+    /*NAVIGATION BAR*/
+    #hero nav{padding: 30px 0px;   
+    font-size: 17px;
+    flex: 1;
+    margin-left: 90px;}
+
+
+    #hero nav a{padding: 20px;
+     text-shadow:0 1px 0 rgba(0,0,0,.25); 
+    font-weight: bold;
+    transition: all 0.4s ease;}
+
+    #hero nav a:hover{background-color: rgb(115, 115, 115);}
+
+    .menu-btn{
+        position: absolute;
+        cursor: pointer;
+        top: 85px;
+        right: 50px;
+       color: white;
+       font-size: 1.5rem;
+       display: none;
+    }
+
+
+    /* NAVIGATION BAR 2*/
+    footer .nav2{padding: 20px 0px;   
+        font-size: 17px;
+        flex: 1;
+        padding-left: 90px;
+    background-color: #fc0;}
+
+    footer a{color: black;
+    font-weight: bold;
+padding: 20px;
+transition: all 0.4s ease;}
+
+footer{position: sticky;
+    top: 0;}
+
+    footer .nav2 a:hover{background-color: rgb(218, 178, 22);}
+
+     .menu-btn2{
+        position: absolute;
+        top: 12px;
+       right: 50px;
+        color: #0a0a0a;
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: none;
+    }
+
+
+hr{margin-left: 90px;
+margin-right: 90px;}
+
+#markets{background-color: black;
+color: rgb(250, 250, 250);}
+
+#markets li{margin-left: 90px;
+padding: 50px;}
+#markets img{height: 25px;}
+
+
+#finance{display: flex;
+justify-content: center;}
+
+#finance .imgcontainer{background-image:  url("image2.jpg");
+    background-size: cover;
+     background-position: center center;
+    height: 500px;
+width: 100%;}
+
+#finance h1{text-decoration: underline #fc0;
+padding-bottom: 10px;
+}
+
+#finance .text{padding: 30px 30px;}
+
+#finance h2{margin-top: 20px;}
+
+#finance p{margin-top: 40px;}
+
+
+#tecnology{background-color: black;
+    background-size: cover;
+     background-position: center;
+    color: rgb(250, 250, 250);}
+
+#tecnology .text{margin-left: 90px;}
+
+#tecnology h1{padding: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center; justify-content: center;
+    flex-direction: column;
+    }
+   
+    
+#tecnology .list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-right: 90px;}
+
+    #tecnology li{flex-basis: calc(33.33% - 10px);
+        margin: 5px;
+        border: 1px solid #ccc;
+        padding: 10px;}
+
+        #tecnology button{margin: 10px 130px;
+            padding: 20px;
+            border: none;
+            background-color: #fc0;
+            color: #0a0a0a;
+            font-size: 12px;
+            cursor: pointer;
+        font-weight: bold;}
+
+           #tecnology button:hover{background-color: rgb(218, 178, 22);}
+
+            #tecnology li a:hover{text-decoration: underline;}
+
+
+#exchanges{text-align: left;
+background-color: black;
+color: black;
+padding-left: 70px;
+padding-right: 70px;}
+
+#exchanges h1{color: white;
+padding-bottom: 50px;
+padding-top: 120px;
+text-decoration: overline #fc0;
+text-align: center;}
+
+ #exchanges .allcards{display: flex;
+font-size: 0.7em;
+padding-top: 40px;} 
+
+#exchanges p{display: block;
+padding-top: 10px;
+padding-bottom: 10px;}
+
+#exchanges h3{margin-top: 100px;
+font-size: 1.5em;}
+
+    #exchanges .card{padding: 30px;
+    background-repeat: no-repeat;
+    background-color: white;
+margin: 30px;}
+
+    .card:first-child{background-image:url("binance-cropped.jpg");}
+
+    .card:nth-child(2){background-image:url("coinbase-cropped.jpg");}
+
+    .card:nth-child(3){background-image:url("kraken-cropped.jpg");}
+
+    .card:nth-child(4){background-image:url("kucoin-cropped.jpg");}
+
+    #exchanges button{
+        padding: 20px;
+        border: none;
+        background-color: #fc0;
+        color: #0a0a0a;
+        font-size: 14px;
+        cursor: pointer;
+    font-weight: bold;
+width: 40px 100px;
+display: inline-block;}
+
+#exchanges button:hover{background-color: rgb(218, 178, 22);}
+
+
+
+#policy{margin-right: 90px;
+margin-left: 90px;
+padding-top: 90px;}
+
+#policy h3{padding: 20px;}
+
+#policy p{font-size: 1em;}
+
+
+
+#policy .news-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+margin: 10px 0;}
+
+#policy .news-cards img{width: 100%;
+height: 180px;}
+
+.news-cards a{color: #0a0a0a;
+font-weight: bold;
+padding: 20px 0;
+display: inline-block;}
+
+.news-cards a:hover{background-color: rgb(73, 71, 71);
+color: white;}
+
+#bitcoin{
+height: 350px;
+background: #fc0;
+margin-bottom: 40px;
+margin-left: 90px;
+margin-right: 90px;
+}
+
+#bitcoin .content{
+    width: 40%;
+    padding: 90px 0 0 30px;}
+
+    #bitcoin p{padding-bottom: 60px;}
+    #bitcoin h2{padding-bottom: 30px; }
+   
+
+    #bitcoin a{color: white;
+        font-weight: bold;
+        padding: 20px 0;
+    background-color: #0a0a0a;}
+
+        #bitcoin a:hover{background-color: rgb(73, 71, 71); }
+
+
+
+
+
+#more{margin: 50px;
+margin-top: 60px;}
+
+#more h2,
+#more p{text-align: center;
+font-size: 30px;
+margin-bottom: 30px;}
+
+#more .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+    .links a{margin: 0 30px;}
+
+    .links a i{font-size: 3rem;
+    color: #0a0a0a;}
+
+
+ #footer2{padding-top: 100px;
+background-color: rgb(73, 71, 71)}
+   
+
+#footer2 p{font-size: 0.7em;
+ display: flex;
+ justify-content: center;
+  align-items: flex-end;
+color: white;}
+
+
+@media(max-width: 700px){
+
+    h1{font-size: 4em;}
+    p {font-size: 1em;}
+
+
+    #hero nav{margin: 0;}
+
+    #hero .showcase{display: flex;
+        text-align: initial;
+        align-items: flex-start; justify-content: center;
+        flex-direction: column;
+        margin: 0;
+   padding-top: 50px;
+}
+
+        #hero form{width: 300px; font-size: 0.7em; 
+        }
+
+        #hero button{width: 100px;}
+
+
+#tecnology{display: flex;
+    text-align: initial;
+         justify-content: center;
+        flex-direction: column;}
+ 
+        #tecnology .text{margin: 0 50px;}
+    
+#policy .news-cards{grid-template-columns: repeat(1, 1fr);}
+
+}
+
+@media(max-width: 1190px){
+
+   body{overflow-x: hidden;}
+    
+    #finance {display: flex;
+    text-align: initial;
+         justify-content: center;
+        flex-direction: column;
+    margin: 0 50px;}
+
+    #finance .imgcontainer{display: none;}
+
+    #exchanges h1 {font-size: 3em; margin-bottom: 0;}
+
+    #exchanges .card{background-image: none;
+    height: 300px;}
+
+    #exchanges .allcards{display: block; padding-bottom: 100px;}
+
+    #policy{margin-bottom: 70px;}
+
+
+    #bitcoin .content{font-size: 0.7em;}
+
+   
+    /*NAVBAR SCROLL 1*/
+
+#hero nav a{display: block;
+top: 0;
+left: 0;
+
+align-items: center;
+text-align: center;
+transition: all 0.4s ease;}
+
+#hero nav a:hover{background-color: #0a0a0a;}
+
+#hero .showcase {margin: 0;
+margin-left: 100px; margin-right: 100px;
+padding-top: 100px;}
+
+#hero nav{margin: 0;
+   position: absolute;
+   top: 45%;
+     left: 50%;
+    transform: translate(-50%, -200%);
+    transition: transform .2s ease-in-out;
+    width: 80%;
+  height: 80%;
+  padding-top: 100px;
+  background-color: rgba(73, 71, 71, 0.9);
+    padding: 0; margin-top: 100px;
+    }
+
+    .menu-btn{display: flex;}
+
+#hero .show{
+    transform: translate(-50%, -50%);}
+
+
+
+/* NAVBAR SCROLL 2*/
+
+.nav2{
+    height: 50px;
+    
+    top: 0;
+    
+    width: 100%;}
+
+ .nav2 a {display: block;
+    transform: translateX(400%);
+    
+    transition: transform .2s ease-in-out;
+    font-size: 0.9em;
+    padding: 10px;
+    background-color: #fc0;}
+
+   
+.nav2 .show2{padding-top: 30px;
+padding-left: 0;}
+
+.show2 a{
+    transform: none;
+    font-size: 0.9em;
+    padding: 10px;
+    background-color: #fc0;
+    transition: all 0.4s ease;}
+
+    .menu-btn2{display: flex;}
+
+
+
+    #exchanges h3{display: none;}
+}
+
+
+@media(max-width: 440px){
+    #hero .showcase{font-size: 0.7em;}
+    #hero form{width: 10px; font-size: 0.5em;}
+  
+    #hero .showcase{
+        display: flex;
+    text-align: center;
+    align-items: center; justify-content: center;
+    flex-direction: column;}
+
+#tecnology .text{font-size: 0.8em;}
+
+#finance h1{font-size: 2em;}
+
+
+
+#bitcoin a{display: none;}
+
+
+#exchanges{padding-left: 10px;
+    padding-right: 50px;}
+    
+    #exchanges h1{font-size: 1.8em;
+        justify-content: center;
+        display: flex;
+    padding-left: 30px;}
+    
+        .allcards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;}
+          
+          .card {
+            width: calc(50% - 10px);
+            margin-bottom: 20px;
+            background-color: #f7f7f7;
+            padding: 0;}
+          
+          .card h3 {
+            margin-top: 0;
+            position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;}
+           
+            .card {
+              width: 100%;}
+
+
+
+}
+
+@media(max-width: 825px){
+    #hero form{width: 300px; font-size: 0.7em; }
+
+    #hero button{width: 100px;}
+
+    #hero .showcase h1{font-size: 3em }
+}
+
+
+@media(max-width: 270px){
+header a{font-size: 0.7em;}
+
+#hero .showcase{
+    display: flex;
+text-align: center;
+align-items: center; justify-content: center;
+flex-direction: column;
+}
+#hero form{width: 100px;
+height: 50px;
+justify-content: center;}
+
+
+#markets{
+    font-size: 0.5em;}
+
+    #markets li{padding-left: 0;}
+
+#finance h1{font-size: 2em;
+justify-content: center;
+display: flex;}
+
+#tecnology h1{font-size: 2em;}
+
+#tecnology .list{
+font-size: 0.8em;}
+
+#tecnology .list button{display: none;}
+
+
+#exchanges{padding-left: 10px;
+padding-right: 50px;}
+
+#exchanges h1{font-size: 1.8em;
+    justify-content: center;
+    display: flex;
+padding-left: 30px;}
+
+    .allcards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;}
+      
+      .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+        background-color: #f7f7f7;
+        padding: 0;}
+      
+      .card h3 {
+        margin-top: 0;
+        position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;}
+      
+        .card {
+          width: 100%;}
+
+
+
+
+#policy .news-cards img{padding-left: 0;
+width: 235px;}
+
+.news-cards{display: flex;
+    text-align: center;
+    align-items: center; justify-content: center;
+    flex-direction: column;}
+
+
+    #bitcoin{margin: 0;}
+
+#bitcoin .content{padding-left: 20px;}
+
+
+#more h2{font-size: 1em;}
+
+.links a {margin: 0 10px;}
+
+.links a i{font-size: 1rem;}
+
+
+      }
+      
+       
+    
+
